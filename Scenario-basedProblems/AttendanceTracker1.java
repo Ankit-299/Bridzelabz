@@ -1,5 +1,5 @@
 import java.util.*;
-public class AttendanceTracker {
+public class AttendanceTracker1 {
     public static Map<String, Integer> calculateAttendance(List<String>... days) {
         Map<String, Integer> attendance = new HashMap<>();
         for (List<String> day : days) {
